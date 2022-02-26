@@ -1,0 +1,71 @@
+<html lang="en">
+<head> 
+<style>
+ul.m li{display: inline-block;}
+ul.m li a{display: inline-block; text-decoration: none;padding-top: 5px;padding-right: 5px;}
+ul.sub  {display: none; position: absolute;}
+ul.option {display: none; position: absolute;}
+ul.m li:hover{background-color: yellow;}
+
+ul.m li:hover ul.sub{
+    display: block;
+    width: 110px;
+    background-color: pink;
+    
+}
+ul.sub li:hover ul.Option{
+    display: block;
+    width: 110px;
+    background-color:palevioletred;
+}
+   
+
+</style>
+</head>
+
+<body style="direction: rtl;">
+<div style="background-color: bisque; height: 30px;">
+    <ul class="m">
+     <li><a href="">menu1</a></li>
+        <li> <a href="">menu2</a>
+            
+            <ul class="Sub">
+                <li>
+                    <a href="">Submenu 1</a>
+                    <ul class="Option">
+                        <li>
+                            <a href="">Option 1</a>
+                        </li>
+                        <li>
+                            <a href="">Option 2</a>
+                            
+                        </li>    
+                    </ul>
+                </li>
+            
+                <li>
+                    <a href="">Submenu 2</a>
+                    <ul class="Option">
+                        <li>
+                            <a href="">Option 1</a>
+                        </li>    
+                        <li>
+                            <a href="">Option 2</a>
+                        </li>
+                    </ul>
+                </li> 
+            </ul>                   
+    
+
+       
+           
+            
+              
+                    
+    <li><a href="">menu3</a></li>
+    <li><a href="">menu4</a></li>
+    </ul>
+</div>
+    
+</body>
+</html>
